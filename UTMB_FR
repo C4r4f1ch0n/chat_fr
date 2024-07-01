@@ -1,0 +1,31 @@
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background-color:yellow ">
+
+  <style type="text/css">
+    div.arena-chat {
+      z-index: 2;
+      border: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 400px;
+      height: 100%;
+    }
+
+    div.chat-room--chat--wrapper {
+      visibility: hidden;
+    }
+
+    div.chat-room--chat--header--wrapper {
+      visibility: hidden;
+    }
+
+    div.chat-room--chat--wrapper a.style__ChatRoomPoweredBy-cumuKb {
+      visibility: visible;
+      position: relative;
+    }
+  </style>
+
+  <div class="arena-chat" data-publisher="utmb-world-series" data-chatroom="utmb-world-series-global" data-position="in-page"></div>
+  <script async src="https://go.arena.im/public/js/arenachatlib.js?p=utmb-world-series&e=utmb-world-series-global"></script>
+
+</div>
